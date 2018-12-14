@@ -1,0 +1,181 @@
+body
+{
+	background-image: url('https://cdn.discordapp.com/attachments/333360756487880716/487675689668182035/HyperionLoading1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#logo
+{
+    width: 100%;
+    height: 110%;
+    background-size: 25%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.log
+{
+    color: rgba(255, 255, 255, 0.46);
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.log-top-right
+{
+    top: 20px;
+    right: 20px;
+    text-align: right;
+    display: none;
+}
+
+.music-info {
+    width: 7.5%;
+    border-radius: 4px;
+    margin: 40px 50px 0 0;
+    padding: 12px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    font-family: "Roboto", sans-serif;
+    float: right;
+}
+
+.loading-container
+{
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    bottom: 20%;
+
+
+    z-index: 5;
+
+    color: #fff;
+
+    font-family: Arial;
+}
+
+.loading-labels
+{
+    width: 100%;
+    height: 20px;
+    margin: 5px 3px 12px 2px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+    display: inline;
+    white-space: nowrap;
+}
+
+.loading-labels div
+{
+    display: none;
+    text-align: left;
+    font-size: 20px;
+    position: relative;
+}
+
+.loading-bar-container
+{
+    width: 100%;
+    background-color: rgba(140, 140, 140, .9);
+    height: 20px;
+    margin: 5px 3px 5px 2px;
+
+    box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
+    background-color: #1a1a1a;
+
+    border-radius: 16px;
+    padding: 7px;
+    text-align: left;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    white-space: nowrap;
+}
+
+.loading-bar
+{
+    width: 0%;
+    height: 20px;
+
+    background-size: 30px 30px;      
+    background-image: linear-gradient(135deg, rgba(0, 0, 0, .15) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, .15) 50%, rgba(0, 0, 0, .15) 75%, transparent 75%, transparent);
+    -webkit-animation: animate-stripes 2s linear infinite;
+
+    display: none;
+
+    transition: width 0.3s;
+    transition-timing-function: ease-out;
+}
+
+.bgcolor-first 
+{
+	border-top-left-radius: 16px;
+	border-bottom-left-radius: 16px;
+    background-color: #84D0FF;
+}
+
+.bgcolor-second 
+{
+    background-color: #58B5EF;
+}
+
+.bgcolor-third 
+{
+    background-color: #349BDB;
+}
+
+.bgcolor-fourth 
+{
+	border-top-right-radius: 16px;
+	border-bottom-right-radius: 16px;
+    background-color: #0B80C4;
+}
+
+
+.color-first 
+{
+    color: white;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+.color-second 
+{
+    color: white;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+.color-third 
+{
+    color: white;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+.color-fourth 
+{
+    color: white;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+
+@keyframes animate-stripes {
+    0% {background-position: 0 0;} 100% {background-position: 60px 0;}
+}
+#log
+{
+    font-family: "Roboto", sans-serif;
+    list-style-type: none;
+    font-size: 0.80em;
+    margin: 0;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    position:fixed;
+    right:0;
+    bottom:0;
+}
